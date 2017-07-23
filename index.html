@@ -1,11 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>blog</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+<style media="screen">
+    div.img {
+    width: 300px;
+    margin: 5px;
+    float: left;
+    border: 1px solid #ccc;
+    opacity: 0.8;
+  }
+    div.img:hover {
+      border: 1px solid #000;
+      opacity: 1.0;
+    }
+    div.img img {
+      width: 100%;
+      height: auto;
+    }
+    div.word {
+      padding: 30px;
+      text-align: center;
+    }
+    div.background {
+      width: 300px;
+      height: 535px;
+      background: url(image/12.jpg) -30px 0;
+      background-size: 355px;
+      border: 1px solid #ccc;
+      float: left;
+      margin: 5px;
+    }
+    div.transbox {
+      width: 200px;
+      height: 250px;
+      padding: 20px;
+      opacity: 0.6;
+      border: 2px solid #fff;
+      margin: 190px 30px 10px 30px;
+      background-color: #fff;
+    }
+    div.transbox p{
+      font-weight: bold;
+      margin: 10px;
+      color: #000;
+    }
+    div.background:hover {
+      border: 1px solid #000;
+    }
+  </style>
 </head>
 <body>
-	ddddddd
-	<a href="/detail.html">xxx</a>
+  <div class="responsive">
+    <div class="img">
+      <a href="image/4.jpg" target="_blank">
+        <img src="image/4.jpg" alt="my photo" width="300">
+      </a>
+      <div class="word">
+        hello!
+      </div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="img">
+      <a href="image/5.jpg" target="_blank">
+        <img src="image/5.jpg" alt="my photo" width="300">
+      </a>
+      <div class="word">
+        漂亮妹子！
+      </div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="img">
+      <a href="image/6.jpg" target="_blank">
+        <img src="image/6.jpg" alt="my photo" width="300">
+      </a>
+      <div class="word">
+        嗯，是我。
+      </div>
+    </div>
+  </div>
+  <div class="background">
+    <div class="transbox">
+      <p>This is some text that is placed in the transparent box.
+This is some text that is placed in the transparent box.
+This is some text that is placed in the transparent box.
+This is some text that is placed in the transparent box.
+This is some text that is placed in the transparent box.</p>
+    </div>
+  </div>
 </body>
 </html>
